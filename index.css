@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.hexContainer {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 20px;
+}
+.hex {
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+}
+hr {
+    width: 100vh;
+}
+button {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+}
